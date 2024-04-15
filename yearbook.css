@@ -1,0 +1,60 @@
+body{
+    background-image: url('https://acr.iitm.ac.in/wp-content/themes/uthaya/images/home1/slide1.jpg');
+    border: 100px solid transparent;
+    border-left: 200px solid transparent;
+    color: white;
+}
+h1{
+    font-size: 45px;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+}
+.jumbotron h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.jumbotron p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.follow-us {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+  }
+  
+  .follow-us p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .social-icons {
+    margin-top: 5px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+.web-management{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: transparent;
+}
+.g_id_signin {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+}

@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(0, 0, 24);
+    margin: 0; /* Remove default body margin */
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    position: fixed; /* Change position to fixed */
+    left: 0;
+    top: 80px; /* Adjust according to navbar height */
+    bottom: 0;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    overflow-y: auto; /* Add overflow-y to enable scrolling if content exceeds container height */
+}
+
+.container-fluid {
+    margin-top: 0px;
+    padding: 0;
+    height: 83px;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    position: fixed; /* Change position to fixed */
+    top: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-item .nav-link {
+    margin-bottom: 25px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    font-size: 17px;
+}
+
+.nav-link:visited,
+.nav-link:active {
+    color: white;
+    font-size: 15px;
+}
+
+.nav-link .material-symbols-outlined {
+    margin-right: 5px;
+    color: white;
+    font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 20
+}
+
+.image-container {
+    margin-top: 90px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjust according to your design */
+    grid-gap: 10px; /* Adjust the gap between images */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.image-container img {
+    width: 200px;/* Ensure images take up full width of their container */
+    height: 300px; /* Maintain aspect ratio */
+}
+.card {
+    background-image: url("https://media.istockphoto.com/id/1287431137/photo/beautiful-light-grey-textured-backdrop-studio-wall.webp?b=1&s=170667a&w=0&k=20&c=FjptqIbsiDAiD1F2MQGs55sRT6qozo7T_datV3UVfV0=");
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px;
+    width: 220px;
+    height: 350px;
+    transition: transform 0.2s ease;
+    align-items: center; /* Center content horizontally */
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Increase size by 5% on hover */
+  }
+  
+  .card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+.student-name {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  margin: 5px;
+  font-size: 25px;
+}
+  
+  
